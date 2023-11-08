@@ -1,0 +1,40 @@
+body {
+  font: Arial;
+  background-color: hwb(0 17% 83%);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+/* Header color, behind header text */
+header {
+  background-color: #d4709f;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+/* Color background for navigation links */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: hwb(0 0% 100%);
+}
+/* Home, About me, Contact color with padding */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+/* Navigation hover color */
+nav a:hover {
+  background-color: #78f314;
+}
+/* text length */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
