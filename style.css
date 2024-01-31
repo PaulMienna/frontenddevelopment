@@ -38,3 +38,7 @@ nav a:hover {
   margin: 0 auto;
   padding: 20px;
 }
+iframe {
+  display: flex;
+  justify-content: center;
+}
